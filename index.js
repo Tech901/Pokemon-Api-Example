@@ -80,7 +80,7 @@ async function getPokemonAtOnce(list = ["ditto", "squirtle", "grotle", "houndour
 }
 getPokemonAtOnce();
 // Weather API
-const API_KEY = "e2c2f01a9184c7efcec6757e51818436";
+const API_KEY = "<NEED-API-KEY>";
 const API_URL = `http://api.openweathermap.org/data/2.5`
 
 async function getForcast(city="memphis"){
